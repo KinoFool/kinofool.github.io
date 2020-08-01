@@ -1,0 +1,47 @@
+body {
+    background-color: #222831;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.presentation {
+    margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+
+.spanname:hover {
+    font-size: 0;
+}
+
+.spanname:hover:after {
+    content: attr(data-hover);
+    font-size: 40px;
+}
+
+.presentation {
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2a365;
+    color: #30475e;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+}
+
+.social {
+    margin-top: 1rem;
+    font-size: 30px;
+}
+
+i,.social {
+    color: #30475e;
+}
